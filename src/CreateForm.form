@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CreateForm">
+  <grid id="bf2a5" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="548" y="198" width="2569" height="2753"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="27dc6" binding="AcceuilTab" layout-manager="GridLayoutManager" row-count="10" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="North"/>
+        <properties>
+          <opaque value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d207" class="javax.swing.JTextField" binding="txtNom">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <caretPosition value="0"/>
+              <text value="nom"/>
+            </properties>
+          </component>
+          <component id="810f7" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Nom/النسب"/>
+            </properties>
+          </component>
+          <component id="4962" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Budget"/>
+            </properties>
+          </component>
+          <component id="2c2b6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Prenom/الإسم"/>
+            </properties>
+          </component>
+          <component id="7d68a" class="javax.swing.JLabel" binding="lblcnie">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="CNIE"/>
+            </properties>
+          </component>
+          <component id="5307f" class="javax.swing.JTextField" binding="txtCnie">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="22953" class="javax.swing.JTextField" binding="txtDateNaissance">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="2cbc1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Date Naissance"/>
+            </properties>
+          </component>
+          <component id="6e606" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Date Recrutement"/>
+            </properties>
+          </component>
+          <component id="22e2a" class="javax.swing.JTextField" binding="txtDateRecru">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="ed668" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Sex"/>
+            </properties>
+          </component>
+          <component id="3f4e3" class="javax.swing.JRadioButton" binding="rbH">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="H"/>
+            </properties>
+          </component>
+          <component id="23964" class="javax.swing.JRadioButton" binding="rbF">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="F"/>
+            </properties>
+          </component>
+          <component id="aac19" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Diplom"/>
+            </properties>
+          </component>
+          <component id="9fa0" class="javax.swing.JComboBox" binding="cbxDiplom">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="913db" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Specialité"/>
+            </properties>
+          </component>
+          <component id="7025d" class="javax.swing.JComboBox" binding="cbxSpecialite">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="82e7f" class="javax.swing.JComboBox" binding="cbxBudget">
+            <constraints>
+              <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="1" use-parent-layout="false">
+                <preferred-size width="405" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="c39eb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Service"/>
+            </properties>
+          </component>
+          <component id="6e79c" class="javax.swing.JTextField" binding="txtDateEchellon">
+            <constraints>
+              <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="1" use-parent-layout="false">
+                <preferred-size width="405" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="9768" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Date Echellon"/>
+            </properties>
+          </component>
+          <component id="a89e5" class="javax.swing.JComboBox" binding="cbxEchellon">
+            <constraints>
+              <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="1" use-parent-layout="false">
+                <preferred-size width="405" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="b20e7" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Echellon"/>
+            </properties>
+          </component>
+          <component id="42089" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Date Grade"/>
+            </properties>
+          </component>
+          <component id="a072f" class="javax.swing.JTextField" binding="txtDateGrade">
+            <constraints>
+              <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="1" indent="1" use-parent-layout="false">
+                <preferred-size width="405" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="a859e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <labelFor value="34b6a"/>
+              <text value="Grade"/>
+            </properties>
+          </component>
+          <component id="34b6a" class="javax.swing.JComboBox" binding="cbxGrade">
+            <constraints>
+              <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="1" use-parent-layout="false">
+                <preferred-size width="405" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="8d58d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Catégorie du grade"/>
+            </properties>
+          </component>
+          <component id="a9147" class="javax.swing.JComboBox" binding="cbxCategorieGrade">
+            <constraints>
+              <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="1" use-parent-layout="false">
+                <preferred-size width="405" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <model/>
+            </properties>
+          </component>
+          <component id="5c336" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Num.Somme"/>
+            </properties>
+          </component>
+          <component id="ecfe5" class="javax.swing.JTextField" binding="txtNumSomme">
+            <constraints>
+              <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="1" use-parent-layout="false">
+                <preferred-size width="405" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="1c30a" class="javax.swing.JButton" binding="btnclear">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="405" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Clear"/>
+            </properties>
+          </component>
+          <component id="cc0d6" class="javax.swing.JComboBox" binding="cbxService">
+            <constraints>
+              <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="1" use-parent-layout="false">
+                <preferred-size width="405" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <grid id="83ada" binding="PhotoPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="1" column="3" row-span="5" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="etched">
+              <font/>
+              <title-color color="-4473925"/>
+            </border>
+            <children>
+              <component id="f0da3" class="javax.swing.JLabel" binding="PhotoLabel">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <icon value="defaultimage.png"/>
+                  <inheritsPopupMenu value="true"/>
+                  <maximumSize width="-1" height="-1"/>
+                  <minimumSize width="-1" height="-1"/>
+                  <text value=""/>
+                  <toolTipText value="double clicker"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="b9b96" class="javax.swing.JButton" binding="btnSave">
+            <constraints>
+              <grid row="6" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16017912"/>
+              <enabled value="true"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <text value="Sauvegarder"/>
+            </properties>
+          </component>
+          <component id="7e02b" class="javax.swing.JButton" binding="btnUpdate">
+            <constraints>
+              <grid row="7" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3573760"/>
+              <foreground color="-1"/>
+              <text value="Modifier"/>
+            </properties>
+          </component>
+          <component id="8c3b8" class="javax.swing.JButton" binding="btnDelete">
+            <constraints>
+              <grid row="8" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4712960"/>
+              <foreground color="-1"/>
+              <text value="Suprimer"/>
+            </properties>
+          </component>
+          <component id="105ea" class="javax.swing.JButton" binding="btngenerer">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16728137"/>
+              <foreground color="-1"/>
+              <text value="Generer"/>
+            </properties>
+          </component>
+          <component id="b79b9" class="javax.swing.JComboBox" binding="cbxDocuments">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="98721" class="javax.swing.JButton" binding="btnSearch">
+            <constraints>
+              <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16754196"/>
+              <foreground color="-1"/>
+              <text value="Rechercher"/>
+            </properties>
+          </component>
+          <component id="c43a3" class="javax.swing.JButton" binding="btnconge">
+            <constraints>
+              <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="dec96" class="javax.swing.JTextField" binding="txtprenomar">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <caretPosition value="0"/>
+              <text value="الإسم"/>
+              <toolTipText value="الإسم"/>
+            </properties>
+          </component>
+          <component id="d9b9c" class="javax.swing.JTextField" binding="txtnamear">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+              <toolTipText value="النسب"/>
+              <verifyInputWhenFocusTarget value="true"/>
+            </properties>
+          </component>
+          <component id="1ae4d" class="javax.swing.JTextField" binding="txtSearch">
+            <constraints>
+              <grid row="9" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="405" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <alignmentX value="0.5"/>
+              <alignmentY value="0.5"/>
+            </properties>
+          </component>
+          <component id="6009c" class="javax.swing.JTextField" binding="txtPrenom">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <caretPosition value="0"/>
+              <text value="prenom"/>
+              <toolTipText value="prenom"/>
+            </properties>
+          </component>
+          <component id="1324" class="javax.swing.JComboBox" binding="cbxcritere">
+            <constraints>
+              <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="13694" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <tabbedpane id="4b494" binding="tabPane">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="d6be6" binding="tbJsrollPan">
+                <constraints>
+                  <tabbedpane title="Untitled"/>
+                </constraints>
+                <properties>
+                  <horizontalScrollBarPolicy value="32"/>
+                  <verticalScrollBarPolicy value="22"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="b3450" class="javax.swing.JTable" binding="tbCreation">
+                    <constraints/>
+                    <properties>
+                      <autoResizeMode value="0"/>
+                      <background color="-8670351"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="88506">
+                <constraints>
+                  <tabbedpane title="Untitled"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="be788" class="javax.swing.JTable" binding="tbconge">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </tabbedpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="SexGroup">
+      <member id="3f4e3"/>
+      <member id="23964"/>
+    </group>
+  </buttonGroups>
+</form>
